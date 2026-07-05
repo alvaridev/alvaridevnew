@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alvaridevnew/static/css/main.aa29bb1f.css",
-    "main.js": "/alvaridevnew/static/js/main.5659976d.js",
+    "main.css": "/alvaridevnew/static/css/main.42c2b4f7.css",
+    "main.js": "/alvaridevnew/static/js/main.edc05087.js",
     "static/js/453.1eb70a5f.chunk.js": "/alvaridevnew/static/js/453.1eb70a5f.chunk.js",
     "static/media/portrait3.jpg": "/alvaridevnew/static/media/portrait3.bfa091a209a5965ffa75.jpg",
     "static/media/exprience-3.jpg": "/alvaridevnew/static/media/exprience-3.33988616e9c8f87e7f15.jpg",
@@ -10,12 +10,12 @@
     "static/media/exprience-2.jpg": "/alvaridevnew/static/media/exprience-2.73bd70cc5392b3fdd6d6.jpg",
     "static/media/exprience-1.jpg": "/alvaridevnew/static/media/exprience-1.72de4b8595e1b2fdcb6c.jpg",
     "index.html": "/alvaridevnew/index.html",
-    "main.aa29bb1f.css.map": "/alvaridevnew/static/css/main.aa29bb1f.css.map",
-    "main.5659976d.js.map": "/alvaridevnew/static/js/main.5659976d.js.map",
+    "main.42c2b4f7.css.map": "/alvaridevnew/static/css/main.42c2b4f7.css.map",
+    "main.edc05087.js.map": "/alvaridevnew/static/js/main.edc05087.js.map",
     "453.1eb70a5f.chunk.js.map": "/alvaridevnew/static/js/453.1eb70a5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa29bb1f.css",
-    "static/js/main.5659976d.js"
+    "static/css/main.42c2b4f7.css",
+    "static/js/main.edc05087.js"
   ]
 }
