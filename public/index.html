@@ -4,40 +4,80 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="theme-color" content="#0a0a0a" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- SEO Meta Tags -->
+    <title>Mohammadreza Alvari | Full-Stack Developer (Django & React)</title>
+    <meta 
+      name="description" 
+      content="Portfolio of Mohammadreza Alvari, a professional Full-Stack Developer specializing in Django, React, and PostgreSQL. Crafting robust backend architectures and high-performance user interfaces." 
+    />
+    <meta 
+      name="keywords" 
+      content="Mohammadreza Alvari, Full Stack Developer, Django Developer, React Developer, Python Backend, Web Developer, Web Design, Iran Developer, Software Engineer, Portfolio" 
+    />
+    <meta name="author" content="Mohammadreza Alvari" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / LinkedIn / Telegram (Social Media Preview) -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Mohammadreza Alvari | Full-Stack Developer" />
+    <meta 
+      property="og:description" 
+      content="Explore my journey bridging backend logic and frontend rhythm. Custom Django & React development." 
+    />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" /> <!-- Place a 1200x630px preview image in your public folder -->
+    <meta property="og:url" content="https://yourdomain.com" /> <!-- Replace with your actual domain -->
+    <meta property="og:site_name" content="Alvari Portfolio" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mohammadreza Alvari | Full-Stack Developer" />
+    <meta 
+      name="twitter:description" 
+      content="Specialized in building modern, scalable web applications using Django and React." 
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.jpg" />
+
+    <!-- Mobile App & PWA Settings -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Preconnecting to External Fonts/Assets for Faster Page Speed (Boosts SEO Score) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- JSON-LD Structured Data (Google Schema Markup) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohammadreza Alvari",
+        "jobTitle": "Full-Stack Software Engineer",
+        "url": "https://yourdomain.com", 
+        "image": "https://yourdomain.com/portrait3.jpg",
+        "sameAs": [
+          "https://t.me/yourusername",
+          "https://instagram.com/yourusername",
+          "https://github.com/yourusername"
+        ],
+        "knowsAbout": [
+          "React",
+          "Django",
+          "Python",
+          "PostgreSQL",
+          "RESTful APIs",
+          "Bootstrap",
+          "JavaScript",
+          "SEO Optimization",
+          "Web Security"
+        ],
+        "description": "Full-Stack Developer with 3+ years of experience specializing in Django and React. Bridging logic and artistic expression."
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
